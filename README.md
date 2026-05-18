@@ -89,7 +89,7 @@ Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit‑learn, Jupyter Notebook
 ---
 
 ## 👨‍💻 Author
-Muhammad Usman — BS Data Science Student
-🔗 LinkedIn https://www.linkedin.com/in/muhammad-usman-157841269/
-🐙 GitHub https://github.com/dominator959
 
+Muhammad Usman — BS Data Science Student  
+LinkedIn: https://www.linkedin.com/in/muhammad-usman-157841269/  
+GitHub: https://github.com/dominator959
