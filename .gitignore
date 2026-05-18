@@ -1,0 +1,24 @@
+# Data files
+data/raw/*.csv
+data/raw/*.xlsx
+data/processed/*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Models
+outputs/models/*.pkl
+outputs/models/*.joblib
+
+# OS
+.DS_Store
+Thumbs.db
