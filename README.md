@@ -21,24 +21,25 @@ Given eight medical measurements for a female patient, predict whether she is di
 ---
 
 ## 🗂️ Project Structure
+```text
 diabetes-risk-prediction/
-├── data/
-│ ├── raw/ # original unmodified dataset
-│ └── processed/ # cleaned dataset produced by notebooks
-├── notebooks/
-│ ├── O1_data_loading.ipynb # load data, validate schema, inspect zeros
-│ ├── O2_data_cleaning.ipynb # replace invalid zeros, impute missing values
-│ ├── O3_eda.ipynb # distributions, correlations, boxplots
-│ └── O4_modeling.ipynb # train models, evaluate, feature importance
-├── src/
-│ ├── data_loader.py # reusable loading and validation functions
-│ ├── preprocessor.py # cleaning and feature engineering functions
-│ └── evaluator.py # metrics and plotting functions
-├── outputs/
-│ ├── figures/ # all saved charts
-│ └── reports/ # generated reports
-├── requirements.txt
-└── README.md
+├── 📂 data/
+│   ├── 📁 raw/               # original unmodified dataset
+│   └── 📁 processed/         # cleaned dataset produced by notebooks
+├── 📓 notebooks/
+│   ├── 📄 01_data_loading.ipynb  # load data, validate schema, inspect 0s
+│   ├── 📄 02_data_cleaning.ipynb # replace invalid 0s, impute missing val
+│   ├── 📄 03_eda.ipynb           # distributions, correlations, boxplots
+│   └── 📄 04_modeling.ipynb      # train models, evaluate, feature importance
+├── 💻 src/
+│   ├── 🐍 data_loader.py     # reusable loading and validation functions
+│   ├── 🐍 preprocessor.py    # cleaning and feature engineering functions
+│   └── 🐍 evaluator.py       # metrics and plotting functions
+├── 📈 outputs/
+│   ├── 🖼️ figures/           # all saved charts
+│   └── 📑 reports/
+├── 📝 requirements.txt
+└── 📖 README.md
 
 ---
 
@@ -79,11 +80,15 @@ Several columns contained zeros that are medically impossible (a person cannot h
 4. Run notebooks in order:
 O1_data_loading → O2_data_cleaning → O3_eda → O4_modeling
 
+---
+
 ## 🛠️ Tech Stack
 Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit‑learn, Jupyter Notebook
 
+---
+
 ## 👨‍💻 Author
 Muhammad Usman — BS Data Science Student
-🔗 LinkedIn https://www.linkedin.com/in/muhammad-usman-157841269/ 
+🔗 LinkedIn https://www.linkedin.com/in/muhammad-usman-157841269/
 🐙 GitHub https://github.com/dominator959
 
