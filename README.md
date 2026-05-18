@@ -40,7 +40,7 @@ diabetes-risk-prediction/
 │   └── 📑 reports/
 ├── 📝 requirements.txt
 └── 📖 README.md
-
+```
 ---
 
 ## 🔍 Key Findings
@@ -78,7 +78,8 @@ Several columns contained zeros that are medically impossible (a person cannot h
    pip install -r requirements.txt
 3. Place diabetes.csv in data/raw/
 4. Run notebooks in order:
-O1_data_loading → O2_data_cleaning → O3_eda → O4_modeling
+   ```bash
+   O1_data_loading → O2_data_cleaning → O3_eda → O4_modeling
 
 ---
 
