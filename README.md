@@ -27,23 +27,23 @@ real-world healthcare applications.
 ## Project Structure
 
 diabetes-risk-prediction/
-├── data/
-│   ├── raw/                    # original unmodified dataset
-│   └── processed/              # cleaned dataset produced by notebooks
-├── notebooks/
-│   ├── 01_data_loading.ipynb   # load data, validate schema, inspect zeros
-│   ├── 02_data_cleaning.ipynb  # replace invalid zeros, impute missing values
-│   ├── 03_eda.ipynb            # distributions, correlations, boxplots
-│   └── 04_modeling.ipynb       # train models, evaluate, feature importance
-├── src/
-│   ├── data_loader.py          # reusable loading and validation functions
-│   ├── preprocessor.py         # cleaning and feature engineering functions
-│   └── evaluator.py            # metrics and plotting functions
-├── outputs/
-│   └── figures/                # all saved charts
-├── reports/
-├── requirements.txt
-└── README.md
+├──data/
+│ ├── raw/                    # original unmodified dataset
+│ └── processed/              # cleaned dataset produced by notebooks
+├──notebooks/
+│ ├── 01_data_loading.ipynb  # load data, validate schema, inspect 0s
+│ ├── 02_data_cleaning.ipynb # replace invalid 0s, impute missing val
+│ ├── 03_eda.ipynb         # distributions, correlations, boxplots
+│ └── 04_modeling.ipynb  # train models, evaluate, feature importance
+├──src/
+│ ├── data_loader.py    # reusable loading and validation functions
+│ ├── preprocessor.py  # cleaning and feature engineering functions
+│ └── evaluator.py     # metrics and plotting functions
+├──outputs/
+│ └── figures/            # all saved charts
+├──reports/
+├──requirements.txt
+└──README.md
 
 ---
 
